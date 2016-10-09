@@ -1,0 +1,107 @@
+body{
+	background: #333;
+	
+}
+.back{
+	width: 1366px;
+	height: 649px;
+	background: url(../image/4.jpg) center no-repeat;
+	/* background-size: 100%; */
+	z-index: 2;
+}
+.scene{
+	width: 900px;
+	height:600px;
+	/* border: 1px solid #000; */
+/* 	background: #593d2a; */
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	margin: auto;
+
+}
+.pai{
+	width: 120px;
+	height: 168px;
+	background-size: 100%;
+	box-shadow: 0 0 2px black;
+	position:absolute;
+	top:0;
+	left: 0;
+	opacity: 0;
+}
+.move-left,.move-right{
+	width: 150px;
+	height: 40px;
+	background: #43524f;
+	border-radius: 30px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	position: absolute;
+	top:460px;
+	left:380px;
+	cursor: pointer;
+/* 	opacity: 0;
+ */
+}
+.move-right{
+	top:520px;
+}
+.start,.reset,.top,.rule{
+	width: 160px;
+	height: 40px;
+	background: pink;
+	background: url(../image/1.png) center no-repeat;
+	border-radius: 10px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	position: absolute;
+	top:150px;
+	left:30px;
+	cursor: pointer;
+}
+.reset{
+	top:200px;
+}
+.top{
+	top:250px;
+}
+.rule{
+	top:300px;
+}
+.shijian{
+	width :80px;
+	height: 80px;
+	background: #0b5a24;
+	position: absolute;
+	right: 100px;
+	top:0;
+	z-index: 5;
+	color:red;
+	font-size: 20px;
+	line-height:40px;
+	font-family: "黑体微软";
+	text-align: center;
+
+}
+.fenshu{
+	width :80px;
+	height: 80px;
+	background: #0b5a24;
+	position: absolute;
+	right: 0px;
+
+	top:0;
+	z-index: 5;
+	color:red;
+	font-size: 20px;
+	line-height:40px;
+	font-family: "黑体微软";
+	text-align: center;
+}
