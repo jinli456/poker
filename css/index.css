@@ -35,8 +35,9 @@ body{
 .move-left,.move-right{
 	width: 150px;
 	height: 40px;
-	background: #43524f;
-	border-radius: 30px;
+	background: #09341d;
+	border-radius: 15px;
+	border:3px solid #91a49b;
 	line-height: 40px;
 	text-align: center;
 	color: #fff;
@@ -79,6 +80,9 @@ body{
 	width :80px;
 	height: 80px;
 	background: #0b5a24;
+	background: #09341d;
+	border-radius: 15px;
+	border:3px solid #91a49b;
 	position: absolute;
 	right: 100px;
 	top:0;
@@ -94,6 +98,9 @@ body{
 	width :80px;
 	height: 80px;
 	background: #0b5a24;
+	background: #09341d;
+	border-radius: 15px;
+	border:3px solid #91a49b;
 	position: absolute;
 	right: 0px;
 
